@@ -2,13 +2,14 @@
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
   by Rafael Yuri Guerra
   ## Table of Contents
-  * [Description](#description)
-  * [Requirements](#requirements)
-  * [Usage](#usage)
-  * [Contact-Me](#contact-me)
-  * [Contributors](#contributors)
-  * [Testing](#testing)
-  https://opensource.org/licenses/MIT
+- [Automatic READ.ME Generator](#automatic-readme-generator)
+  - [Table of Contents](#table-of-contents)
+  - [Description](#description)
+  - [Requirements](#requirements)
+  - [Usage](#usage)
+  - [Contact-Me](#contact-me)
+  - [Contributors](#contributors)
+  - [Testing](#testing)
   ## Description
   This project was created to learn how to use the terminal and node js to automatically create a Read.Me without having to type everything out every single time. This can also be used for future projects when needed.
   ## Requirements
@@ -22,7 +23,11 @@
   ## Contributors
   N/A
   ## Testing
-  XXX
-  N/A
-  License: MIT
+  N/A 
+
+  License: MIT 
+
+  https://opensource.org/licenses/MIT
+
+  https://youtu.be/RUdOzJuoK6Q
   

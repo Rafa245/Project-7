@@ -54,7 +54,6 @@ function generateMarkdown(data) {
   * [Contact-Me](#contact-me)
   * [Contributors](#contributors)
   * [Testing](#testing)
-  ${renderLicenseLink(data.license)}
   ## Description
   ${data.description}
   ## Requirements
@@ -68,9 +67,9 @@ function generateMarkdown(data) {
   ## Contributors
   ${data.contributors}
   ## Testing
-  XXX
-  ${data.test}
-  ${renderLicenseSection(data.license)}
+  ${data.test} \n
+  ${renderLicenseSection(data.license)} \n
+  ${renderLicenseLink(data.license)}
   `;
 }
 
