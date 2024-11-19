@@ -10,53 +10,53 @@ const questions = [
     {
     type: 'input',
     name: 'title',
-    message: "What is the title of your ReadMe?",
+    message: colors.yellow("What is the title of your ReadMe?"),
     },
     {
     type: 'input',
     name: 'description',
-    message: "Please provide a description of your ReadMe.",
+    message: colors.green("Please provide a description of your ReadMe."),
     },
     {
     type: 'input',
     name: 'require',
-    message: "Please provide the requirements needed for your project.",
+    message: colors.blue("Please provide the requirements needed for your project."),
     }, 
     {
     type: 'input',
     name: 'github',
-    message: "Please provide your Github to be added your ReadMe.",
+    message: colors.yellow("Please provide your Github to be added your ReadMe."),
     },
     {
     type: 'input',
     name: 'usage',
-    message: "Please provide usage information for your ReadMe.",
+    message: colors.green("Please provide usage information for your ReadMe."),
     },
     {
     type: 'list',
     name: 'license',
-    message: "Please provide license information for your project.",
+    message: colors.blue("Please provide license information for your project."),
     choices: ['MIT', 'Apache', 'GPL', 'None'],
     },
     {
     type: 'input',
     name: 'contributors',
-    message: "Please provide contributor information for your ReadMe.",
+    message: colors.yellow("Please provide contributor information for your ReadMe."),
     },
     {
     type: 'input',
     name: 'name',
-    message: "Please provide your name for your project.",
+    message: colors.green("Please provide your name for your project."),
     },
     {
     type: 'input',
     name: 'email',
-    message: "Please provide your email for your project.",
+    message: colors.blue("Please provide your email for your project."),
     },
     {
     type: 'input',  
     name: 'test',
-    message: "Provide walkthrough of required test if applicable.",
+    message: colors.yellow("Provide walkthrough of required test if applicable."),
     },
 ];
 
