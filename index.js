@@ -20,12 +20,12 @@ const questions = [
     {
     type: 'input',
     name: 'require',
-    message: "Please provide a table of contents for your ReadMe.",
+    message: "Please provide the requirements needed for your project.",
     }, 
     {
     type: 'input',
-    name: 'creator',
-    message: "Please provide creator information for your ReadMe.",
+    name: 'github',
+    message: "Please provide your Github to be added your ReadMe.",
     },
     {
     type: 'input',
@@ -33,10 +33,10 @@ const questions = [
     message: "Please provide usage information for your ReadMe.",
     },
     {
-    type: 'checkbox',
+    type: 'list',
     name: 'license',
     message: "Please provide license information for your project.",
-    choices: ['MIT', 'Apache', 'GPL', 'BSD', 'None'],
+    choices: ['MIT', 'Apache', 'GPL', 'None'],
     },
     {
     type: 'input',
